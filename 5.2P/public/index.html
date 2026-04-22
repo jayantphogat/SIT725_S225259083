@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Books Catalog</title>
+</head>
+<body>
+  <h1>Book List</h1>
+  <ul id="books"></ul>
+  <script>
+    fetch('/api/books')
+      .then(response => response.json())
+      .then(data => {
+        const booksList = document.getElementById('books');
+
+        data.forEach(book => {
+          const li = document.createElement('li');
+          li.textContent = `${book.title} - ${book.author}`;
+          booksList.appendChild(li);
+        });
+      })
+      .catch(error => console.error('Error fetching books:', error));
+  </script>
+</body>
+</html>

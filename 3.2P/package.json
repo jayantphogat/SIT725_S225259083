@@ -1,0 +1,14 @@
+{
+  "name": "sit725-3.2p-smart-habit-tracker",
+  "version": "1.0.0",
+  "description": "SIT725 3.2P Smart Habit Tracker project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jayant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

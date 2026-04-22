@@ -1,0 +1,94 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.user-image-size {
+  height: 55px;
+  margin-top: 4px;
+}
+
+.main-body {
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#heading {
+  margin-top: 20px;
+  color: #1565c0;
+  font-weight: 600;
+}
+
+.materialboxed-image {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.button-section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.click-me-button {
+  background-color: #1565c0;
+}
+
+.form-button-section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card .card-image img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#card-section {
+  margin-top: 30px;
+}
+
+.button-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.modal {
+  max-height: 85%;
+}
+
+@media screen and (max-width: 600px) {
+  .user-image-size {
+    height: 45px;
+    margin-top: 8px;
+  }
+
+  #heading {
+    font-size: 2.2rem;
+  }
+
+  .materialboxed-image {
+    max-width: 90%;
+  }
+}
