@@ -2,14 +2,12 @@ const mongoose = require('mongoose');
 
 const currentYear = new Date().getFullYear();
 
+// ONLY sample data genres (no extra values)
 const allowedGenres = [
-  'Sci-Fi',
+  'Science Fiction',
   'Classic',
-  'Romance',
-  'Historical',
-  'Fantasy',
-  'Technology',
-  'Other'
+  'Historical Fiction',
+  'Fantasy'
 ];
 
 const bookSchema = new mongoose.Schema({

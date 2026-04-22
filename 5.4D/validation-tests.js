@@ -127,7 +127,7 @@ function makeValidBook(id) {
     title: "Node.js Essentials",
     author: "John Smith",
     year: 2022,
-    genre: "Technology",
+    genre: "Classic",  // ✅ must match allowedGenres
     summary: "A practical and beginner-friendly book about Node.js development.",
     price: "24.99"
   };
@@ -138,7 +138,7 @@ function makeValidUpdate() {
     title: "Updated Node.js Essentials",
     author: "John Smith",
     year: 2023,
-    genre: "Technology",
+    genre: "Classic",  // ✅ must match allowedGenres
     summary: "An updated and beginner-friendly guide to Node.js development.",
     price: "29.99"
   };
