@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 
 const currentYear = new Date().getFullYear();
 
-// ONLY sample data genres (no extra values)
 const allowedGenres = [
   'Science Fiction',
   'Classic',

@@ -1,6 +1,4 @@
 {
-<<<<<<< HEAD
-=======
   "name": "5.4d",
   "version": "1.0.0",
   "description": "",
@@ -13,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
->>>>>>> 43b6547 (Task 5.4D updated)
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.4.1"
