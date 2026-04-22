@@ -14,8 +14,10 @@ btn.addEventListener("click", async () => {
     const price = parseFloat(book.price.$numberDecimal).toFixed(2);
     div.innerText = `${book.title} ${price} AUD`;
 
+    div.style.cursor = "pointer"; // makes it look clickable
+
     div.onclick = async () => {
-      const res = await fetch(`/api/books/${book._id}`);
+      const res = await fetch(`/api/books/${book.id}`);
       const b = await res.json();
 
       details.innerHTML = `
